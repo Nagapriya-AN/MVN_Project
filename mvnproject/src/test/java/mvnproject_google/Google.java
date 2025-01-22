@@ -10,6 +10,7 @@ public class Google {
 		driver.get("https://www.google.com/");
 		System.out.println("Hello world");
 		System.out.println(driver.getTitle());
+		System.out.println(driver.getCurrentUrl());
 		driver.quit();
 	}
 
